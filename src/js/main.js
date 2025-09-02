@@ -238,24 +238,24 @@ xmdG.add(mq.xMedium, () => {
 		{
 			title: "AI Color Grading",
 			paragraph: "Copy the color gradeof any video or generate your own with a prompt",
-			src: isProduction ? "/Captions-AI/assets/edit-icon-2.svg" : "src/assets/svg/edit-icon-2.svg",
+			src: isProduction ? "/Captions-AI/assets/svg/edit-icon-2.svg" : "src/assets/svg/edit-icon-2.svg",
 		},
 		{
 			title: "AI Color Schema",
 			paragraph: "Generate the perfect color schema with just a text prompt",
-			src: isProduction ? "/Captions-AI/assets/edit-icon-3.svg" : "src/assets/svg/edit-icon-3.svg",
+			src: isProduction ? "/Captions-AI/assets/svg/edit-icon-3.svg" : "src/assets/svg/edit-icon-3.svg",
 			// src: "src/assets/svg/edit-icon-3.svg",
 		},
 		{
 			title: "AI Background Removal",
 			paragraph: "Automatically remove the background of your video ",
-			src: isProduction ? "/Captions-AI/assets/edit-icon-4.svg" : "src/assets/svg/edit-icon-4.svg",
+			src: isProduction ? "/Captions-AI/assets/svg/edit-icon-4.svg" : "src/assets/svg/edit-icon-4.svg",
 			// src: "src/assets/svg/edit-icon-4.svg",
 		},
 		{
 			title: "AI rotoscoping",
 			paragraph: "Cut out object with one tap",
-			src: isProduction ? "/Captions-AI/assets/edit-icon-5.svg" : "src/assets/svg/edit-icon-5.svg",
+			src: isProduction ? "/Captions-AI/assets/svg/edit-icon-5.svg" : "src/assets/svg/edit-icon-5.svg",
 			// src: "src/assets/svg/edit-icon-5.svg",
 		},
 	];
