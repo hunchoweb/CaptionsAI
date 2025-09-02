@@ -24,35 +24,35 @@ $font-bold: 700;
 // $font-extra-bold: 800;
 $font-black: 900;
 
-@include font-face("Aileron", "/fonts/aileron/Aileron-Black", $font-black) {
+@include font-face("Aileron", "/fonts/aileron/Aileron-Black.woff2", $font-black, woff2) {
  font-display: swap;
 }
 
-@include font-face("Aileron", "/fonts/aileron/Aileron-Heavy", $font-black) {
+@include font-face("Aileron", "/fonts/aileron/Aileron-Heavy.woff2", $font-black, woff2) {
  font-display: swap;
 }
 
-@include font-face("Aileron", "/fonts/aileron/Aileron-Bold", $font-bold) {
+@include font-face("Aileron", "/fonts/aileron/Aileron-Bold.woff2", $font-bold, woff2) {
  font-display: swap;
 }
 
-@include font-face("Aileron", "/fonts/aileron/Aileron-SemiBold", $font-semi-bold) {
+@include font-face("Aileron", "/fonts/aileron/Aileron-SemiBold.woff2", $font-semi-bold, woff2) {
  font-display: swap;
 }
 
-@include font-face("Aileron", "/fonts/aileron/Aileron-Regular", $font-normal) {
+@include font-face("Aileron", "/fonts/aileron/Aileron-Regular.woff2", $font-normal, woff2) {
  font-display: swap;
 }
 
-@include font-face("Aileron", "/fonts/aileron/Aileron-Light", $font-light) {
+@include font-face("Aileron", "/fonts/aileron/Aileron-Light.woff2", $font-light, woff2) {
  font-display: swap;
 }
 
-@include font-face("Aileron", "/fonts/aileron/Aileron-UltraLight", $font-extra-light) {
+@include font-face("Aileron", "/fonts/aileron/Aileron-UltraLight.woff2", $font-extra-light, woff2) {
  font-display: swap;
 }
 
-@include font-face("Aileron", "/fonts/aileron/Aileron-Thin", $font-thin) {
+@include font-face("Aileron", "/fonts/aileron/Aileron-Thin.woff2", $font-thin, woff2) {
  font-display: swap;
 }
 

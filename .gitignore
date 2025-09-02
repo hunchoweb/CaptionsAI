@@ -106,3 +106,4 @@ localhost-key.pem
 *.msm
 *.msp
 *.txz
+.vercel
