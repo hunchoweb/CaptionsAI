@@ -11,12 +11,12 @@
 .logo {
 	width: 154px;
 	height: 32px;
-	background: svg-load("/assets/logo/logo.svg", fill=$text-primary-100) center no-repeat;
+	background: url("/assets/logo/logo.svg") center no-repeat;
 	transition: background $main-transition-delay, fill $main-transition-delay;
 }
 
 .logo:hover {
-	background: svg-load("/assets/logo/logo.svg", fill=$bg-links) center no-repeat;
+	background: url("/assets/logo/logo.svg") center no-repeat;
 }
 
 header {

@@ -24,36 +24,60 @@ $font-bold: 700;
 // $font-extra-bold: 800;
 $font-black: 900;
 
-@include font-face("Aileron", "/fonts/aileron/Aileron-Black.woff2", $font-black, woff2) {
- font-display: swap;
+@font-face {
+  font-family: "Aileron";
+  src: url("/fonts/aileron/Aileron-Black.woff2") format("woff2");
+  font-weight: $font-black;
+  font-display: swap;
 }
 
-@include font-face("Aileron", "/fonts/aileron/Aileron-Heavy.woff2", $font-black, woff2) {
- font-display: swap;
+@font-face {
+  font-family: "Aileron";
+  src: url("/fonts/aileron/Aileron-Heavy.woff2") format("woff2");
+  font-weight: $font-black;
+  font-display: swap;
 }
 
-@include font-face("Aileron", "/fonts/aileron/Aileron-Bold.woff2", $font-bold, woff2) {
- font-display: swap;
+@font-face {
+  font-family: "Aileron";
+  src: url("/fonts/aileron/Aileron-Bold.woff2") format("woff2");
+  font-weight: $font-bold;
+  font-display: swap;
 }
 
-@include font-face("Aileron", "/fonts/aileron/Aileron-SemiBold.woff2", $font-semi-bold, woff2) {
- font-display: swap;
+@font-face {
+  font-family: "Aileron";
+  src: url("/fonts/aileron/Aileron-SemiBold.woff2") format("woff2");
+  font-weight: $font-semi-bold;
+  font-display: swap;
 }
 
-@include font-face("Aileron", "/fonts/aileron/Aileron-Regular.woff2", $font-normal, woff2) {
- font-display: swap;
+@font-face {
+  font-family: "Aileron";
+  src: url("/fonts/aileron/Aileron-Regular.woff2") format("woff2");
+  font-weight: $font-normal;
+  font-display: swap;
 }
 
-@include font-face("Aileron", "/fonts/aileron/Aileron-Light.woff2", $font-light, woff2) {
- font-display: swap;
+@font-face {
+  font-family: "Aileron";
+  src: url("/fonts/aileron/Aileron-Light.woff2") format("woff2");
+  font-weight: $font-light;
+  font-display: swap;
 }
 
-@include font-face("Aileron", "/fonts/aileron/Aileron-UltraLight.woff2", $font-extra-light, woff2) {
- font-display: swap;
+@font-face {
+  font-family: "Aileron";
+  src: url("/fonts/aileron/Aileron-UltraLight.woff2") format("woff2");
+  font-weight: $font-extra-light;
+  font-display: swap;
 }
 
-@include font-face("Aileron", "/fonts/aileron/Aileron-Thin.woff2", $font-thin, woff2) {
- font-display: swap;
+@font-face {
+  font-family: "Aileron";
+  src: url("/fonts/aileron/Aileron-Thin.woff2") format("woff2");
+  font-weight: $font-thin;
+  font-display: swap;
 }
 
 // ? Font Families
